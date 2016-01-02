@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+}
+
+a:link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+a:visited {
+    color: crimson;
+}
+
+img {
+    width: 300px;
+}
+
+/* Categories */
+
+ul {
+    list-style-type: square;
+}
+
+#categories {
+    width: 300px;
+}
