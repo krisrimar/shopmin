@@ -2,6 +2,31 @@
     text-align: center;
 }
 
+/* For old browsers that don't suppor HTML 5*/
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+/* Header */
+
+.main-title {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-title:link {
+    color: black;
+}
+
+.main-title:hover {
+    color: black;
+}
+
+.main-title:visited {
+    color: #000000;
+}
+
 a:link {
     color: dodgerblue;
     text-decoration: none;

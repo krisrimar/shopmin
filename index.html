@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
 <head>
     <title>Shopmin</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="minimalist, shop">
-    <meta name="description" content="The most minimalist shop in the world">
-    <meta name="author" content="Kris Rimar">
-    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="minimalist, shop" />
+    <meta name="description" content="The most minimalist shop in the world" />
+    <meta name="author" content="Kris Rimar" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <h1><b><abbr title="The most minimalist shop in the world">Shopmin</abbr></b></h1>
+        <h1 class="main-title"><b><abbr title="The most minimalist shop in the world"><a class="main-title" href="index.html">Shopmin</a></abbr></b></h1>
         <p>The world's most minimalist shop</p>
     </header>
 
@@ -24,12 +28,33 @@ All in minimalist style
 
     <nav>
         <h4>Categories:</h4>
-        
-<pre>Clothes
-Cars
-Household items
-Furniture
-</pre>
+
+        <form action="shop.html">
+            <select name="categories">
+                <option value="art">Art</option>
+                <option value="books">Books</option>
+                <option value="cameras">Cameras</option>
+                <option value="clothing">Clothing</option>
+                <option value="computers">Computers</option>
+                <option value="music">Music</option>
+                <option value="travel">Travel</option>
+                <option value="video_games">Video games</option>
+            </select>
+            <input type="submit" value="Go" />
+        </form>
+
+        <!--        <pre>
+<a href="shop.html">Art</a>
+<a href="shop.html">Books</a>
+<a href="shop.html">Cameras</a>
+<a href="shop.html">Clothing</a>
+<a href="shop.html">Computers</a>
+<a href="shop.html">Music</a>
+<a href="shop.html">Travel</a>
+<a href="shop.html">Video games</a>
+</pre>-->
+
+        <br />
     </nav>
 
     <section>
@@ -57,8 +82,16 @@ Furniture
         <img src="http://theneverlandfiles.com/wp-content/uploads/2015/11/minimalist-living-room-furniture.jpg" alt="minimalist furniture" />
 
     </section>
-
+    <br />
     <footer>
+        <p>Leave us a comment:</p>
+        <textarea name="comment" rows="5" cols="40"></textarea>
+        <br />
+        <br />
+        <button>Send</button>
+        <br />
+        <br />
+
         <address>
     Author: Kris Rimar.<br>
     Visit at: Min St. 77 A<br>
@@ -69,3 +102,23 @@ Furniture
 </body>
 
 </html>
+
+<!-- Useful stuff:
+
+HTML5 Semantic elements
+
+<article>	Defines an article
+<aside>	Defines content aside from the page content
+<details>	Defines additional details that the user can view or hide
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer>	Defines a footer for a document or section
+<header>	Specifies a header for a document or section
+<main>	Specifies the main content of a document
+<mark>	Defines marked/highlighted text
+<nav>	Defines navigation links
+<section>	Defines a section in a document
+<summary>	Defines a visible heading for a <details> element
+<time>	Defines a date/time
+
+-->

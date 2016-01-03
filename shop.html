@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<head>
+    <title>Shopmin</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="minimalist, shop" />
+    <meta name="description" content="The most minimalist shop in the world" />
+    <meta name="author" content="Kris Rimar" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="main-title"><b><abbr title="The most minimalist shop in the world"><a class="main-title" href="index.html">Shopmin</a></abbr></b></h1>
+        <p>The world's most minimalist shop</p>
+        <h2>Art</h2>
+    </header>
+
+    <section>
+        <pre>
+Price:
+        </pre>
+        <form oninput="x.value=parseInt(a.value)">
+            0
+            <input type="range" id="a" name="a" value="50"> 100
+            <br />
+            <output name="x" for="a">50</output>
+
+        </form>
+        <pre>
+Color:</pre>
+        <form>
+            <input type="checkbox" name="black" value="Black">Black
+            <input type="checkbox" name="red" value="Red">Red
+            <input type="checkbox" name="Green" value="Green"> Green
+        </form>
+        <br />
+        <input type="button" value="Filter">
+    </section>
+</body>
+
+</html>
+
+<!-- Useful thing:
+
+<form action="action_page.asp"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+-->
