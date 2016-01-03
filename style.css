@@ -40,7 +40,13 @@ a:visited {
     color: crimson;
 }
 
+/* Images and videos */
+
 img {
+    width: 300px;
+}
+
+video {
     width: 300px;
 }
 
